@@ -51,7 +51,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Sumario</summary>
+  <summary>Sumário</summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
