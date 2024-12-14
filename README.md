@@ -36,7 +36,7 @@
   <h3 align="center">Restaurant Management System</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A solução para a gestão do seu restaurante.
     <br />
     <a href="docs"><strong>Explore the docs »</strong></a>
     <br />
