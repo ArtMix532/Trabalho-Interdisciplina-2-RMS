@@ -81,7 +81,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Esse trabalho sistema se trata do Trabalho Interdisciplinar: Aplicações para Processos de Negócios, do curso de Engenharia de Software. completar aq -- I think this is it.
 
 Here's why:
 
