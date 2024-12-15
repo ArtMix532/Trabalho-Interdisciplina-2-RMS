@@ -12,7 +12,7 @@
   <p align="center">
     A solução para a gestão do seu Restaurante.
     <br />
-    <a href="#"><strong>Explore a documentação »</strong></a>
+    <a href="docs"><strong>Explore a documentação »</strong></a>
     <br />
     <br />
     <a href="#">Ver Demo</a>
