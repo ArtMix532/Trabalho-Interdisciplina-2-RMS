@@ -16,10 +16,6 @@
     <br />
     <br />
     <a href="#">Ver Demo</a>
-    ·
-    <a href="#">Reportar Bug</a>
-    ·
-    <a href="#">Sugerir Funcionalidade</a>
   </p>
 </div>
 
@@ -40,11 +36,17 @@
         <li><a href="#instalacao">Instalação</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Como Usar</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contribuindo">Contribuindo</a></li>
-    <li><a href="#Colaboradores">Colaboradores</a></li>
-    <li><a href="#acknowledgments">Agradecimentos</a></li>
+    <li>
+      <a href="#getting-started">Início Rápido</a>
+      <ul>
+        <li><a href="#Como-Utilizar">Como Utilizar</a></li>
+        <li><a href="#Acesse-o-Site">Acesse o Site</a></li>
+        <li><a href="#Colaboradores">Colaboradores</a></li>
+        <li><a href="#acknowledgments">Agradecimentos</a></li>
+      </ul>
+    </li>
+
+
   </ol>
 </details>
 
