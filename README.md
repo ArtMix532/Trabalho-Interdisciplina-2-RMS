@@ -81,7 +81,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Esse trabalho sistema se trata do Trabalho Interdisciplinar: Aplicações para Processos de Negócios, do curso de Engenharia de Software. completar aq -- I think this is it.
+Esse trabalho sistema se trata do Trabalho Interdisciplinar: Aplicações para Processos de Negócios, do curso de Engenharia de Software da PUC Minas. completar aq -- I think this is it.
 
 Here's why:
 
