@@ -44,7 +44,6 @@
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contribuindo">Contribuindo</a></li>
     <li><a href="#license">Licença</a></li>
-    <li><a href="#contact">Contato</a></li>
     <li><a href="#acknowledgments">Agradecimentos</a></li>
   </ol>
 </details>
@@ -156,23 +155,13 @@ Distribuído sob a licença MIT. Veja `LICENSE.txt` para mais informações.
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
-<!-- CONTACT -->
-## Contato
-
-Arthur Henrique Teixeira e Silva Bacelete - arthurbt2005@gmail.com
-
-Gabriel Reis Lebron de Oliveira - reislebron@gmail.com
-
-Project Link: [https://github.com/seu-usuario/seu-repositorio](https://github.com/seu-usuario/seu-repositorio)
-
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 ## Agradecimentos
 
 - Professores: Michelle Hanne Soares de Andrade, Danilo Boechat Seufitelli, Alexandre Marques
 - Pontifícia Universidade Católica de Minas Gerais (PUC Minas)
-- Ferramentas de desenvolvimento: Spring Boot, Bootstrap, MySQL, Git
+
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
