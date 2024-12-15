@@ -1,51 +1,25 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-
 <a id="readme-top"></a>
-
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![Unlicense License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="#">
     <img src="docs/images/LogoTI2.jpg" alt="Logo" width="200" height="200">
   </a>
 
   <h3 align="center">Restaurant Management System</h3>
 
   <p align="center">
-    A solução para a gestão do seu restaurante.
+    Um sistema integrado para a gestão de restaurantes, promovendo eficiência operacional e sustentabilidade.
     <br />
-    <a href="docs"><strong>Explore the docs »</strong></a>
+    <a href="#"><strong>Explore a documentação »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="#">Ver Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="#">Reportar Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="#">Sugerir Funcionalidade</a>
   </p>
 </div>
 
@@ -54,183 +28,161 @@
   <summary>Sumário</summary>
   <ol>
     <li>
-      <a href="Sobre o Projeto">Sobre o Projeto</a>
+      <a href="#sobre-o-projeto">Sobre o Projeto</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#ferramentas-utilizadas">Ferramentas Utilizadas</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">Início Rápido</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#prerequisitos">Pré-requisitos</a></li>
+        <li><a href="#instalacao">Instalação</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#usage">Como Usar</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#contribuindo">Contribuindo</a></li>
+    <li><a href="#license">Licença</a></li>
+    <li><a href="#contact">Contato</a></li>
+    <li><a href="#acknowledgments">Agradecimentos</a></li>
   </ol>
 </details>
 
 <!-- ABOUT THE PROJECT -->
-
 ## Sobre o Projeto
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Screenshot do Produto][product-screenshot]](https://example.com)
 
-Esse trabalho sistema se trata do Trabalho Interdisciplinar: Aplicações para Processos de Negócios, do curso de Engenharia de Software da PUC Minas. completar aq -- I think this is it.
+Este projeto foi desenvolvido como parte do **Trabalho Interdisciplinar: Aplicações para Processos de Negócios** do curso de Engenharia de Software na PUC Minas. O objetivo é criar um sistema de gerenciamento para restaurantes, promovendo maior eficiência e sustentabilidade através de soluções tecnológicas inovadoras.
 
-Here's why:
+### Objetivos do Sistema:
+- Reduzir erros operacionais e desperdícios.
+- Melhorar a experiência do cliente.
+- Otimizar o controle de estoque e gestão financeira.
+- Agilizar a comunicação entre os setores do restaurante.
 
-- Your time should be focused on creating something amazing. A project that solves a problem and helps others
-- You shouldn't be doing the same tasks over and over like creating a README from scratch
-- You should implement DRY principles to the rest of your life :smile:
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+### Ferramentas Utilizadas
 
-Use the `BLANK_README.md` to get started.
+Este projeto foi desenvolvido com as seguintes ferramentas e tecnologias:
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- [![SpringBoot][SpringBoot-shield]][SpringBoot-url]
+- [![Bootstrap][Bootstrap-shield]][Bootstrap-url]
+- [![JavaScript][JavaScript-shield]][JavaScript-url]
+- [![MySQL][MySQL-shield]][MySQL-url]
+- [![Git][Git-shield]][Git-url]
 
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-- [![SpringBoot][
-SpringBoot.com]][
-SpringBoot-url]
-- [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-- [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- GETTING STARTED -->
+## Início Rápido
 
-## Getting Started
+Estas instruções ajudarão você a configurar e executar o projeto localmente.
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+### Pré-requisitos
 
-### Prerequisites
+Certifique-se de ter as seguintes ferramentas instaladas:
+- **Java 11** ou superior
+- **Maven** para gestão de dependências
+- **MySQL Server** para o banco de dados
+- **Git** para controle de versão
 
-This is an example of how to list things you need to use the software and how to install them.
+### Instalação
 
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd seu-repositorio
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
+3. Configure o banco de dados no arquivo `application.properties`:
+   ```properties
+   spring.datasource.url=jdbc:mysql://localhost:3306/nome_do_banco
+   spring.datasource.username=seu_usuario
+   spring.datasource.password=sua_senha
    ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
+4. Compile e execute o projeto:
+   ```bash
+   mvn spring-boot:run
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- USAGE EXAMPLES -->
+## Como Usar
 
-## Usage
+O sistema permite:
+- Gerenciar estoque em tempo real.
+- Registrar e acompanhar pedidos de clientes.
+- Facilitar a comunicação entre a equipe de atendimento e a cozinha.
+- Gerar relatórios financeiros detalhados.
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+**Exemplo de Uso:**
+- A equipe de atendimento registra um pedido pelo sistema.
+- O pedido é automaticamente enviado para a cozinha.
+- Os gestores podem acompanhar em tempo real o status dos pedidos e o nível do estoque.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- ROADMAP -->
-
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-  - [ ] Chinese
-  - [ ] Spanish
+- [x] Implementação da gestão de estoque
+- [x] Integração com banco de dados MySQL
+- [ ] Desenvolvimento de dashboard para relatórios
+- [ ] Adição de suporte multilíngue
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- CONTRIBUTING -->
+## Contribuindo
 
-## Contributing
+Contribuições são bem-vindas! Para contribuir:
+1. Faça um fork do repositório.
+2. Crie uma branch para a sua funcionalidade (`git checkout -b feature/NovaFuncionalidade`).
+3. Commit suas alterações (`git commit -m 'Adiciona NovaFuncionalidade'`).
+4. Faça um push para a branch (`git push origin feature/NovaFuncionalidade`).
+5. Abra um Pull Request.
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Top contributors:
-
-<a href="https://github.com/othneildrew/Best-README-Template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=othneildrew/Best-README-Template" alt="contrib.rocks image" />
-</a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- LICENSE -->
+## Licença
 
-## License
+Distribuído sob a licença MIT. Veja `LICENSE.txt` para mais informações.
 
-Distributed under the Unlicense License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- CONTACT -->
+## Contato
 
-## Contact
+Arthur Henrique Teixeira e Silva Bacelete - arthurbt2005@gmail.com
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Gabriel Reis Lebron de Oliveira - reislebron@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/seu-usuario/seu-repositorio](https://github.com/seu-usuario/seu-repositorio)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
+## Agradecimentos
 
-## Acknowledgments
+- Professores: Michelle Hanne Soares de Andrade, Danilo Boechat Seufitelli, Alexandre Marques
+- Pontifícia Universidade Católica de Minas Gerais (PUC Minas)
+- Ferramentas de desenvolvimento: Spring Boot, Bootstrap, MySQL, Git
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-- [Malven's Grid Cheatsheet](https://grid.malven.co/)
-- [Img Shields](https://shields.io)
-- [GitHub Pages](https://pages.github.com)
-- [Font Awesome](https://fontawesome.com)
-- [React Icons](https://react-icons.github.io/react-icons/search)
+<!-- SHIELDS -->
+[SpringBoot-shield]: https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white
+[SpringBoot-url]: https://spring.io/projects/spring-boot
+[Bootstrap-shield]: https://
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
