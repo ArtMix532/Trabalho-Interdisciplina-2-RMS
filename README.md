@@ -68,11 +68,12 @@ Este projeto foi desenvolvido como parte do **Trabalho Interdisciplinar: Aplica√
 
 Este projeto foi desenvolvido com as seguintes ferramentas e tecnologias:
 
-- [![SpringBoot][SpringBoot-shield]][SpringBoot-url]
-- [![Bootstrap][Bootstrap-shield]][Bootstrap-url]
-- [![JavaScript][JavaScript-shield]][JavaScript-url]
-- [![MySQL][MySQL-shield]][MySQL-url]
-- [![Git][Git-shield]][Git-url]
+* [![SpringBoot][SpringBoot-shield]][SpringBoot-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JQuery][JQuery.com]][JQuery-url]
+* [![JavaScript][JavaScript-shield]][JavaScript-url]
+* [![MySQL][MySQL-shield]][MySQL-url]
+* [![Git][Git-shield]][Git-url]
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
