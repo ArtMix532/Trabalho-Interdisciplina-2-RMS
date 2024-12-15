@@ -54,7 +54,7 @@
   <summary>Sumário</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="Sobre o Projeto">Sobre o Projeto</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -77,7 +77,7 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+## Sobre o Projeto
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
