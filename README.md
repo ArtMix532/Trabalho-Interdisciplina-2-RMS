@@ -43,7 +43,7 @@
     <li><a href="#usage">Como Usar</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contribuindo">Contribuindo</a></li>
-    <li><a href="#license">Licença</a></li>
+    <li><a href="#Colaboradores">Colaboradores</a></li>
     <li><a href="#acknowledgments">Agradecimentos</a></li>
   </ol>
 </details>
@@ -149,7 +149,7 @@ Contribuições são bem-vindas! Para contribuir:
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- LICENSE -->
-## Licença
+## Colaboradores
 
 Distribuído sob a licença MIT. Veja `LICENSE.txt` para mais informações.
 
