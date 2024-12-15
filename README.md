@@ -75,80 +75,15 @@ Este projeto foi desenvolvido com as seguintes ferramentas e tecnologias:
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- GETTING STARTED -->
-## Início Rápido
+## Como Utilizar
+Por se tratar de um trabalho acadêmico, o código está em um repositório privado e o acesso será permitido apenas mediante autorização de um dos contribuidores do projeto. No entanto, você pode visualizar o resultado final clicando <a href="#readme-top">aqui</a>.
 
-Estas instruções ajudarão você a configurar e executar o projeto localmente.
+## Acesse o Site
 
-### Pré-requisitos
+Clicando aqui, você terá acesso ao site.
 
-Certifique-se de ter as seguintes ferramentas instaladas:
-- **Java 11** ou superior
-- **Maven** para gestão de dependências
-- **MySQL Server** para o banco de dados
-- **Git** para controle de versão
+**OBS:** O site pode não estar funcionando completamente, pois o banco de dados pode estar desligado.
 
-### Instalação
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   ```
-2. Navegue até o diretório do projeto:
-   ```bash
-   cd seu-repositorio
-   ```
-3. Configure o banco de dados no arquivo `application.properties`:
-   ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/nome_do_banco
-   spring.datasource.username=seu_usuario
-   spring.datasource.password=sua_senha
-   ```
-4. Compile e execute o projeto:
-   ```bash
-   mvn spring-boot:run
-   ```
-
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-## Como Usar
-
-O sistema permite:
-- Gerenciar estoque em tempo real.
-- Registrar e acompanhar pedidos de clientes.
-- Facilitar a comunicação entre a equipe de atendimento e a cozinha.
-- Gerar relatórios financeiros detalhados.
-
-**Exemplo de Uso:**
-- A equipe de atendimento registra um pedido pelo sistema.
-- O pedido é automaticamente enviado para a cozinha.
-- Os gestores podem acompanhar em tempo real o status dos pedidos e o nível do estoque.
-
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Implementação da gestão de estoque
-- [x] Integração com banco de dados MySQL
-- [ ] Desenvolvimento de dashboard para relatórios
-- [ ] Adição de suporte multilíngue
-
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
-
-<!-- CONTRIBUTING -->
-## Contribuindo
-
-Contribuições são bem-vindas! Para contribuir:
-1. Faça um fork do repositório.
-2. Crie uma branch para a sua funcionalidade (`git checkout -b feature/NovaFuncionalidade`).
-3. Commit suas alterações (`git commit -m 'Adiciona NovaFuncionalidade'`).
-4. Faça um push para a branch (`git push origin feature/NovaFuncionalidade`).
-5. Abra um Pull Request.
-
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
-
-<!-- LICENSE -->
 ## Colaboradores
 
 <a href="https://github.com/ArtMix532/Trabalho-Interdisciplina-2-RMS/graphs/contributors">
