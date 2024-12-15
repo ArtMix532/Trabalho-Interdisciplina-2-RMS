@@ -10,7 +10,7 @@
   <h3 align="center">Restaurant Management System</h3>
 
   <p align="center">
-    Um sistema integrado para a gestão de restaurantes, promovendo eficiência operacional e sustentabilidade.
+    A solução para a gestão do seu Restaurante.
     <br />
     <a href="#"><strong>Explore a documentação »</strong></a>
     <br />
