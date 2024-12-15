@@ -151,7 +151,9 @@ Contribuições são bem-vindas! Para contribuir:
 <!-- LICENSE -->
 ## Colaboradores
 
-Distribuído sob a licença MIT. Veja `LICENSE.txt` para mais informações.
+<a href="https://github.com/ArtMix532/Trabalho-Interdisciplina-2-RMS/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ArtMix532/Trabalho-Interdisciplina-2-RMS" alt="Contributors image" />
+</a>
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
