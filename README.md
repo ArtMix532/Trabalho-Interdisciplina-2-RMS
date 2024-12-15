@@ -80,7 +80,7 @@ Por se tratar de um trabalho acadêmico, o código está em um repositório priv
 
 ## Acesse o Site
 
-Clicando aqui, você terá acesso ao site.
+Clicando <a href="#readme-top">aqui</a>, você terá acesso ao site.
 
 **OBS:** O site pode não estar funcionando completamente, pois o banco de dados pode estar desligado.
 
