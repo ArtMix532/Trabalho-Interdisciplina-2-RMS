@@ -53,7 +53,7 @@ Este projeto foi desenvolvido como parte do **Trabalho Interdisciplinar: Aplica�
 - Otimizar o controle de estoque e gestão financeira.
 - Agilizar a comunicação entre os setores do restaurante.
 
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
+
 
 ### Ferramentas Utilizadas
 
@@ -66,7 +66,6 @@ Este projeto foi desenvolvido com as seguintes ferramentas e tecnologias:
 * [![MySQL][MySQL-shield]][MySQL-url]
 * [![Git][Git-shield]][Git-url]
 
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Veja o Site
@@ -85,7 +84,6 @@ Clicando <a href="#readme-top">aqui</a>, você terá acesso ao site.
   <img src="https://contrib.rocks/image?repo=ArtMix532/Trabalho-Interdisciplina-2-RMS" alt="Contributors image" />
 </a>
 
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 
 <!-- ACKNOWLEDGMENTS -->
