@@ -30,22 +30,14 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Início Rápido</a>
-      <ul>
-        <li><a href="#prerequisitos">Pré-requisitos</a></li>
-        <li><a href="#instalacao">Instalação</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Início Rápido</a>
+      <a href="#getting-started">Veja o Projeto</a>
       <ul>
         <li><a href="#Como-Utilizar">Como Utilizar</a></li>
         <li><a href="#Acesse-o-Site">Acesse o Site</a></li>
-        <li><a href="#Colaboradores">Colaboradores</a></li>
-        <li><a href="#acknowledgments">Agradecimentos</a></li>
       </ul>
     </li>
-
+    <li><a href="#Colaboradores">Colaboradores</a></li>
+    <li><a href="#acknowledgments">Agradecimentos</a></li>
 
   </ol>
 </details>
