@@ -30,7 +30,7 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Veja o Projeto</a>
+      <a href="#Veja-o-Projeto">Veja o Projeto</a>
       <ul>
         <li><a href="#Como-Utilizar">Como Utilizar</a></li>
         <li><a href="#Acesse-o-Site">Acesse o Site</a></li>
@@ -72,7 +72,7 @@ Este projeto foi desenvolvido com as seguintes ferramentas e tecnologias:
 ### Como Utilizar
 Por se tratar de um trabalho acadêmico, o código está em um repositório privado e o acesso será permitido apenas mediante autorização de um dos contribuidores do projeto. No entanto, você pode visualizar o resultado final clicando <a href="#readme-top">aqui</a>.
 
-### Acesse o Site
+### Acesse o Projeto
 
 Clicando <a href="#readme-top">aqui</a>, você terá acesso ao site.
 
