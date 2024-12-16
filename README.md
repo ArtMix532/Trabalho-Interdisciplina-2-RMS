@@ -69,10 +69,11 @@ Este projeto foi desenvolvido com as seguintes ferramentas e tecnologias:
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 <!-- GETTING STARTED -->
-## Como Utilizar
+## Veja o Site
+### Como Utilizar
 Por se tratar de um trabalho acadêmico, o código está em um repositório privado e o acesso será permitido apenas mediante autorização de um dos contribuidores do projeto. No entanto, você pode visualizar o resultado final clicando <a href="#readme-top">aqui</a>.
 
-## Acesse o Site
+### Acesse o Site
 
 Clicando <a href="#readme-top">aqui</a>, você terá acesso ao site.
 
