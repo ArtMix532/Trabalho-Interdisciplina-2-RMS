@@ -68,7 +68,7 @@ Este projeto foi desenvolvido com as seguintes ferramentas e tecnologias:
 
 
 <!-- GETTING STARTED -->
-## Veja o Site
+## Veja o Projeto
 ### Como Utilizar
 Por se tratar de um trabalho acadêmico, o código está em um repositório privado e o acesso será permitido apenas mediante autorização de um dos contribuidores do projeto. No entanto, você pode visualizar o resultado final clicando <a href="#readme-top">aqui</a>.
 
