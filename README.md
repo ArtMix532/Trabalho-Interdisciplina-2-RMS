@@ -15,7 +15,7 @@
     <a href="docs"><strong>Explore a documentação »</strong></a>
     <br />
     <br />
-    <a href="#">Ver Demo</a>
+    <a href="docs/video/Video-de-apresetação.mp4">Ver Demo</a>
   </p>
 </div>
 
@@ -70,11 +70,11 @@ Este projeto foi desenvolvido com as seguintes ferramentas e tecnologias:
 <!-- GETTING STARTED -->
 ## Veja o Projeto
 ### Como Utilizar
-Por se tratar de um trabalho acadêmico, o código está em um repositório privado e o acesso será permitido apenas mediante autorização de um dos contribuidores do projeto. No entanto, você pode visualizar o resultado final clicando <a href="#readme-top">aqui</a>.
+Por se tratar de um trabalho acadêmico, o código está em um repositório privado e o acesso será permitido apenas mediante autorização de um dos contribuidores do projeto. No entanto, você pode visualizar o resultado final clicando <a href="docs/video/Video_RMS_ti_2.mp4">aqui</a>.
 
 ### Acesse o Projeto
 
-Clicando <a href="#readme-top">aqui</a>, você terá acesso ao site.
+Clicando <a href="docs/video/Video_RMS_ti_2.mp4">aqui</a>, você terá acesso ao site.
 
 **OBS:** O site pode não estar funcionando completamente, pois o banco de dados pode estar desligado.
 
