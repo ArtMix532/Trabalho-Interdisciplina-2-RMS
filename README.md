@@ -7,7 +7,7 @@
     <img src="docs/images/LogoTI2.jpg" alt="Logo" width="200" height="200">
   </a>
 
-  <h3 align="center">Restaurant Management System</h3>
+  <h3 align="center">Restaurant Management Syste</h3>
 
   <p align="center">
     A solução para a gestão do seu Restaurante.
