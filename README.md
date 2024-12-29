@@ -43,7 +43,7 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
-## Sobre o Projeto
+## Sobre o Projeto.
 
 Este projeto foi desenvolvido como parte do **Trabalho Interdisciplinar: Aplicações para Processos de Negócios** do curso de Engenharia de Software na PUC Minas. O objetivo é criar um sistema de gerenciamento para restaurantes, promovendo maior eficiência e sustentabilidade através de soluções tecnológicas inovadoras.
 
