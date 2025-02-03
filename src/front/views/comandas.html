@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comandas</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../assets/CSS/main.css" />
+    <link rel="stylesheet" href="../assets/CSS/adicionar.css" />
+    <link rel="stylesheet" href="../assets/CSS/input.css" />
+    <link rel="stylesheet" href="../assets/CSS/button.css" />
+    <link rel="stylesheet" href="../assets/CSS/comanda.css" />
+    <link rel="stylesheet" href="../assets/CSS/modal.css" />
+    <link rel="stylesheet" href="../assets/CSS/resposividade.css" />
+    <script defer src="../assets/JavaScript/comandas.js"></script>
+  </head>
+
+  <body>
+    <nav class="menu-lateral">
+      <div class="btn-expandir" onclick="toggleMode()">
+        <i class="bi bi-arrow-bar-right" id="btn-exp"></i>
+        <img
+          id="logo"
+          width="80px"
+          height="60px"
+          src="../assets/img/Logotipo delicado monograma feminino bege e branco (1).png"
+          alt=""
+        />
+      </div>
+
+      <ul>
+        <li class="item-menu">
+          <a href="./index.html"
+            ><span class="icon"><i class="bi bi-house"></i></span
+            ><span class="txt-link">Home</span></a
+          >
+        </li>
+        <li class="item-menu">
+          <a href="./adicionar.html"
+            ><span class="icon"><i class="bi bi-cart-plus-fill"></i></span
+            ><span class="txt-link">Adicionar</span></a
+          >
+        </li>
+        <li class="item-menu ativo">
+          <a href="./comandas.html"
+            ><span class="icon"><i class="bi bi-card-checklist"></i></span
+            ><span class="txt-link">Comandas</span></a
+          >
+        </li>
+        <li class="item-menu">
+          <a href="./termometro.html"
+            ><span class="icon"><i class="bi bi-bar-chart-fill"></i></span
+            ><span class="txt-link">Termometro</span></a
+          >
+        </li>
+        <li class="item-menu">
+          <a href="./settings.html"
+            ><span class="icon"><i class="bi bi-gear"></i></span
+            ><span class="txt-link">Configuração</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <main id="">
+      <div class="comandas-box">
+        <div class="box-button btn-comanda-box">
+          <button class="button-3 btn-abrirComanda" data-modal-target="modal1">
+            Abrir Comanda
+          </button>
+        </div>
+
+        <div class="modal" id="modal1">
+          <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h1 class="titulo">Abrir Comanda</h1>
+            <div class="inputQtd">
+              <label for="nomeCliente" class="inputLabel"
+                >Digite o nome do cliente</label
+              >
+              <div class="boxInput">
+                <input
+                  type="text"
+                  class="input"
+                  id="nomeCliente"
+                  placeholder="Ex.: Lucas"
+                  autocomplete="off"
+                />
+              </div>
+            </div>
+            <div class="box-button">
+              <button class="button-3" onclick="handleAbrirComanda()">
+                Criar
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="comandas" id="comandas-container"></div>
+      </div>
+    </main>
+
+    <script src="../assets/JavaScript/seleção-menu.js"></script>
+    <script src="../assets/JavaScript/expandir.js"></script>
+    <script src="../assets/JavaScript/addComanda.js"></script>
+    <script src="../assets/JavaScript/modal.js"></script>
+    <script src="../assets/JavaScript/comandas.js"></script>
+  </body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../assets/CSS/main.css" />
+    <link rel="stylesheet" href="../assets/CSS/termometors.css" />
+    <link rel="stylesheet" href="../assets/CSS/resposividade.css" />
+    <link rel="stylesheet" href="../assets/CSS/button.css" />
+    <link rel="stylesheet" href="../assets/CSS/Graficos.css" />
+  </head>
+
+  <body>
+    <nav class="menu-lateral">
+      <div class="btn-expandir" onclick="toggleMode()">
+        <i class="bi bi-arrow-bar-right" id="btn-exp"></i>
+        <img
+          id="logo"
+          width="80px"
+          height="60px"
+          src="../assets/img/Logotipo delicado monograma feminino bege e branco (1).png"
+          alt=""
+        />
+      </div>
+
+      <ul>
+        <li class="item-menu">
+          <a href="./index.html">
+            <span class="icon"><i class="bi bi-house"></i></span>
+            <span class="txt-link">Home</span>
+          </a>
+        </li>
+        <li class="item-menu">
+          <a href="./adicionar.html">
+            <span class="icon"><i class="bi bi-cart-plus-fill"></i></span>
+            <span class="txt-link">Adicionar</span>
+          </a>
+        </li>
+        <li class="item-menu">
+          <a href="./comandas.html">
+            <span class="icon"><i class="bi bi-card-checklist"></i></span>
+            <span class="txt-link">Comandas</span>
+          </a>
+        </li>
+        <li class="item-menu ativo">
+          <a href="./termometro.html">
+            <span class="icon"><i class="bi bi-bar-chart-fill"></i></span>
+            <span class="txt-link">Termometro</span>
+          </a>
+        </li>
+        <li class="item-menu">
+          <a href="./settings.html">
+            <span class="icon"><i class="bi bi-gear"></i></span>
+            <span class="txt-link">Configuração</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="container">
+        <div class="navGerenciarProduto">
+          <a
+            class="buttonNavGerenciarProdutoRight ativo"
+            href="./termometro.html"
+            >Atendimento</a
+          >
+          <a class="buttonNavGerenciarProdutoCenter" href="./termometro2.html"
+            >Lucratividade</a
+          >
+          <a class="buttonNavGerenciarProdutoLeft" href="./termometro3.html"
+            >Desperdicio</a
+          >
+        </div>
+        <div class="termometroDiv">
+          <div class="termometros">
+            <section class="status">
+              <div class="status_icons status_icons_faturado">
+                <i class="bi bi-cash"></i>
+              </div>
+              <div class="info">
+                <span class="info_total_faturado">R$20.000,00</span>
+                <h2 class="info_label">Faturado</h2>
+              </div>
+            </section>
+            <section class="status">
+              <div class="status_icons status_icons_folha">
+                <i class="bi bi-people"></i>
+              </div>
+              <div class="info">
+                <span class="info_total_folha">R$20.000,00</span>
+                <h2 class="info_label">Folha de pagamento</h2>
+              </div>
+            </section>
+            <section class="status">
+              <div class="status_icons status_icons_gastos">
+                <i class="bi bi-box-arrow-right"></i>
+              </div>
+              <div class="info">
+                <span class="info_total_gastos">R$20.000,00</span>
+                <h2 class="info_label">Gastos</h2>
+              </div>
+            </section>
+            <section class="status">
+              <div class="status_icons status_icons_lucro">
+                <i class="bi bi-arrow-up-right"></i>
+              </div>
+              <div class="info">
+                <span class="info_total_lucro">R$20.000,00</span>
+                <h2 class="info_label">lucro</h2>
+              </div>
+            </section>
+          </div>
+          <div id="filtros">
+            <form>
+              <label class="labelDate" for="data1">Data Inicial:</label>
+              <input type="date" name="data1" id="data1" required />
+              <label class="labelDate" for="data2">Data Final:</label>
+              <input type="date" name="data2" id="data2" required />
+              <button class="button-3 menor " type="submit">Gerar Gráfico</button>
+            </form>
+          </div>
+          <canvas
+            id="graficos1"
+            class="graficos"
+            style="width: 45px; height: 15px"
+          ></canvas>
+        </div>
+      </div>
+    </main>
+
+    <script src="../assets/JavaScript/indicadores.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../assets/JavaScript/seleção-menu.js"></script>
+    <script src="../assets/JavaScript/expandir.js"></script>
+    <script src="../assets/JavaScript/graficos.js"></script>
+  </body>
+</html>

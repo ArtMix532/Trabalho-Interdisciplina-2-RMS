@@ -1,0 +1,61 @@
+.wrapper-2 {
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.select-btn-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: transparent;
+}
+
+.select-btn-2 input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+}
+
+.select-btn-2 .arrow {
+  font-size: 18px;
+  color: #666;
+}
+
+#produto-alterado-box {
+  margin-top: 20px;
+}
+
+.item-prato {
+  display: flex;
+  align-items: center;
+}
+
+.item-prato p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.bi-trash3 {
+  cursor: pointer;
+  color: #e57373;
+  font-size: 18px;
+  transition: color 0.2s ease;
+}
+
+.bi-trash3:hover {
+  color: #d32f2f;
+}
+
+/* Ativa a exibição das opções ao clicar */
+.wrapper.active .options {
+  display: block;
+}

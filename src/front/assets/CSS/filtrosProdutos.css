@@ -1,0 +1,12 @@
+.filtroPratos{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+.filtroProdutos{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+}

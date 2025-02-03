@@ -1,0 +1,25 @@
+.searchInputDropdown {
+  display: flex;
+  align-items: center;
+  border: 1.6px solid #ccc;
+  background-color: #00000006;
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: #4b4b4b;
+  gap: 5px;
+}
+#searchInputDropdown {
+  padding: 8px;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  outline: none;
+  text-align: center;
+  font-weight: 600;
+  font-size: large;
+}
+.searchInputDropdown label {
+  height: 20px;
+}

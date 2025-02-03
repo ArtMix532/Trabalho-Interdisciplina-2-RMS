@@ -1,0 +1,20 @@
+.input {
+  padding: 8px;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  outline: none;
+  font-weight: 600;
+  font-size: x-large;
+}
+.inputLabel {
+  font-weight: 600;
+  padding-left: 5px;
+  font-size: medium;
+}
+
+.textarea {
+  height: 100px;
+  font-size: medium;
+  font-weight: 530;
+}

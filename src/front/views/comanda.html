@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="../assets/CSS/main.css" />
+  <link rel="stylesheet" href="../assets/CSS/comanda.css" />
+  <link rel="stylesheet" href="../assets/CSS/input.css" />
+  <link rel="stylesheet" href="../assets/CSS/button.css" />
+  <link rel="stylesheet" href="../assets/CSS/adicionar.css">
+  <link rel="stylesheet" href="../assets/CSS/MenuDropdown.css">
+  <link rel="stylesheet" href="../assets/CSS/modalPagamento.css">
+  <link rel="stylesheet" href="../assets/CSS/search.css" />
+  <link rel="stylesheet" href="../assets/CSS/item-produto.css">
+  <link rel="stylesheet" href="../assets/CSS/resposividade.css">
+</head>
+
+<body>
+  <nav class="menu-lateral">
+    <div class="btn-expandir" onclick="toggleMode()">
+      <i class="bi bi-arrow-bar-right" id="btn-exp"></i>
+      <img id="logo" width="80px" height="60px" src="../assets/img/Logotipo delicado monograma feminino bege e branco (1).png" alt="" />
+    </div>
+
+    <ul>
+      <li class="item-menu">
+        <a href="./index.html">
+          <span class="icon"><i class="bi bi-house"></i></span>
+          <span class="txt-link">Home</span>
+        </a>
+      </li>
+      <li class="item-menu">
+        <a href="./adicionar.html">
+          <span class="icon"><i class="bi bi-cart-plus-fill"></i></span>
+          <span class="txt-link">Adicionar</span>
+        </a>
+      </li>
+      <li class="item-menu ativo">
+        <a href="./comandas.html">
+          <span class="icon"><i class="bi bi-card-checklist"></i></span>
+          <span class="txt-link">Comandas</span>
+        </a>
+      </li>
+      <li class="item-menu">
+        <a href="./termometro.html">
+          <span class="icon"><i class="bi bi-bar-chart-fill"></i></span>
+          <span class="txt-link">Termometro</span>
+        </a>
+      </li>
+      <li class="item-menu">
+        <a href="./settings.html">
+          <span class="icon"><i class="bi bi-gear"></i></span>
+          <span class="txt-link">Configuração</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <div class="container">
+      <div class="nav-comanda">
+        <h1>Comanda:<span id="id_comanda"></span></h1>
+        <a href="./comandas.html"><i class="bi bi-x"></i></a>
+      </div>
+      <div class="lista-comanda">
+        <div class="list-comanda-box">
+          <div class="list-produtos">
+            <div  id="list-produtos"></div>
+            <div class="10porcento item-produto-lista cor ">
+              <p class="nome-list text-comanda">Taxa de serviço</p>
+              <p class="qtd-list text-comanda">10%</p>
+              <p class="preco-list text-comanda" id="servico10">R$: Total</p>
+            </div>
+            <div class="total">
+              <p class="item-2 text-comanda">Total</p>
+              <p class="item-3 text-comanda">...</p>
+              <p class="item-4 text-comanda" id="total-comanda">R$: Total</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal" id="modal1">
+          <!-- Tela de finalizar pagamento-->
+          <div class="modal-content">
+            <!-- This is the actual modal/popup box -->
+            <span class="modal-close">&times;</span>
+            <h1 class="titulo">Abrir Comanda</h1>
+            <div class="valor-pagamento-h1">
+              <h1 id="valorPagamento">Valor a ser pago: </h1>
+            </div>
+            <div class="pagamento-box-superior">
+              <div class="checkbox-box">
+                <label for="nomePrato" class="inputLabel">Escolha como vai ser o pagamento:</label>
+                <label class="checkbox">Individual
+                  <input type="radio" checked="checked" name="pagamentoOpcao" id="opcaoSolo">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="checkbox">Grupo
+                  <input type="radio" name="pagamentoOpcao" id="dividirPagamento">
+                  <span class="checkmark"></span>
+                </label>
+                <div id="inputContainer"></div>
+              </div>
+              
+              <div class="valor-pagamento">
+                <div class="checkbox-box">
+                  <label for="nomePrato" class="inputLabel">Remover taxa de serviço?</label>
+                  <label class="checkbox">Não
+                    <input type="radio" checked="checked" name="taxaServico" id="taxaServicoNao">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="checkbox">Sim
+                    <input type="radio" name="taxaServico" id="taxaServicoSim">
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="inputs-pagamento" id="inputs-pagamento">
+              <div class="pagamento-box">
+                <div class="inputQtd">
+                  <label for="nomePrato" class="inputLabel">Digite o valor do pagamento:</label>
+                  <div class="boxInput pagamento-input">
+                    <input type="text" class="input" id="ValorPago" autocomplete="off" maxlength="15" autocomplete="off" />
+                  </div>
+                </div>
+                <div class="inputQtd">
+                  <label for="qtdProduto" class="inputLabel">Escolha a forma de pagamento:</label>
+                  <div class="select-container pagamento-input">
+                    <select class="select-box" id="metodoPagamento">
+                      <option value=""></option>
+                      <option value="Pix">Pix</option>
+                      <option value="Debito">Cartão de Debito</option>
+                      <option value="Credito">Cartão de Credito</option>
+                      <option value="Dinheiro">Dinheiro</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box-button">
+              <button class="button-3 pagamento-confirmar" onclick="Pagar()">Confirmar pagamento</button>
+            </div>
+          </div>
+        </div>
+        <!--Box de add produto na comanda-->
+        <div class="adicionar-produtos">
+          <div class="produto-lancar-mercadoria">
+            <div class="add-produtos-comanda" style="display: flex;">
+              <div class="search">
+                <div class="searchButton">
+                  <i class="bi bi-search"></i>
+                </div>
+                <input type="text" id="pratoInput" class="searchInput" placeholder="Pesquisar" autocomplete="off"
+                  oninput="buscarPratos()" />
+              </div>
+            </div>
+            <ul id="options" class="options"></ul>
+            <div class="inputQtd" id="quantidadeBox" style="display: none;">
+              <label for="quantidadePrato" class="inputLabel">Digite a quantidade:</label>
+              <div class="boxInput">
+                <input type="number" class="input" id="quantidadePrato" placeholder="Quantidade" autocomplete="off" />
+              </div>
+            </div>
+            <div class="box-button">
+              <button id="addPrato" class="button-3" onclick="adicionarPrato()"
+                style="display: none; width: 120px;">Adicionar</button>
+            </div>
+            <!----->
+          </div>
+          <div class="produtos-que-vao-ser-add-box">
+            <div class="produtos-que-vao-ser-add" id="produtos-que-vao-ser-add">
+                
+            <div class="box-button">
+              <button id="deleteComanda" class="button-3-excluir" onclick="deletarComanda()">Apagar</button>
+              <button class="button-3" onclick="salvarComanda()">Lançar</button>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="box-button">
+          <button class="button-3 btnPagar" onclick="" data-modal-target="modal1">Pagamento</button>
+        </div>
+      </div>
+  </main>
+  <script src="../assets/JavaScript/seleção-menu.js"></script>
+  <script src="../assets/JavaScript/expandir.js"></script>
+  <script src="../assets/JavaScript/modal.js"></script>
+  <script src="../assets/JavaScript/comanda.js"></script>
+  <script src="../assets/JavaScript/dividirPagamento.js"></script>
+  <script src="../assets/JavaScript/formatadorMoeda.js"></script>
+</body>
+
+</html>

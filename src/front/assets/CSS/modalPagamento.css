@@ -1,0 +1,259 @@
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: flex-start; /* or center */
+  z-index: 1000; /* depending on what z-index values exist in your page, in order for the modal layer to sit on top of other content */
+  overflow: auto; /* enable scrolling if needed - although this is not really necessary since we are going take care of overflow in modal-content */
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.modal.modal-show {
+  animation: fadeIn 0.1s ease-in-out forwards;
+}
+.modal.modal-hide {
+  animation: fadeOut 0.1s ease-in-out 0.1s forwards;
+}
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 0.55rem;
+  width: 80%;
+  min-height: 80%;
+  overflow: auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+.modal.modal-show .modal-content {
+  animation: fadeInDown 0.3s ease-in-out forwards;
+}
+.modal.modal-hide .modal-content {
+  animation: fadeOutUp 0.2s ease-in-out forwards;
+}
+.modal-content h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.modal-content p {
+  margin: 1rem 0;
+  line-height: 1.5rem;
+}
+.modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.75rem;
+  font-weight: bold;
+  padding: 0 0.75rem;
+  /* width: 2rem;
+      height: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center; */
+  color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  user-select: none;
+}
+.modal-close:hover,
+.modal-close:focus {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+  .modal-content {
+    width: 80%;
+  }
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+  .modal-content {
+    padding: 2rem 1rem 1rem 1rem;
+    width: 90%;
+  }
+  .modal-content h1 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* The container */
+.checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.checkbox input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.checkbox .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.inputQtdPessoas {
+  display: flex;
+  gap: 5px;
+  align-items: baseline;
+}
+
+.boxInput2 {
+  display: flex;
+  align-items: center;
+  border: 1.6px solid #ccc;
+  background-color: #00000006;
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 2.5px 5px;
+  color: #4b4b4b;
+  gap: 5px;
+  -webkit-box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.33);
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.33);
+}
+.boxInput2 .input {
+  text-align: center;
+}
+
+.button-3 {
+  margin: 0;
+}
+
+.pagamento-input {
+  width: 215px;
+  margin: 0;
+}
+
+.pagamento-box {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.inputQtd {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  gap: 10px;
+}
+
+.pagamento-box-superior {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#inputs-pagamento {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checkbox-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.valor-pagamento-h1 {
+  width: 100%;
+}
+
+.pagamento-confirmar {
+  width: 220px;
+  height: 40px;
+}

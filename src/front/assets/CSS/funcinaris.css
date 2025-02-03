@@ -1,0 +1,18 @@
+.options {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none; /* Inicialmente oculto */
+}
+
+.options li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.options li:hover {
+    background-color: #f0f0f0;
+}
